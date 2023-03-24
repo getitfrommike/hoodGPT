@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
 
 // fetch data from server -> get bot's response
 
-const response = await fetch('http://localhost:5000', { method: 'POST', 
+const response = await fetch('https://hoodgpt2023.onrender.com', { method: 'POST', 
 headers: {
   'Content-Type': 'application/json'
 },
